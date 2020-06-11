@@ -68,9 +68,9 @@ const calculateDiscount = (totalPriceWithDiscount, cart) => {
 		discount: deferredAmount
 	})
 
-	console.log(cart)
+	return cart
 }
 
-getShoppingCart(productsList, [130, 140, 230, 260])
+// getShoppingCart(productsList, [130, 140, 230, 260])
 
-// module.exports = { getShoppingCart };
+module.exports = { getShoppingCart };
